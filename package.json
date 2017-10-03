@@ -1,89 +1,22 @@
 {
-  "_from": "aor-graphql-client-graphcool@^0.0.1-1",
-  "_id": "aor-graphql-client-graphcool@0.0.1-1",
-  "_inBundle": false,
-  "_integrity": "sha512-WG7xM485piG2jr6IlIRelfifYQQ7JEvGkfI039brQwGokQVBJ+57+otZLySuV61GRKHT0M8wDLh4Ud6LY/rd+w==",
-  "_location": "/aor-graphql-client-graphcool",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "aor-graphql-client-graphcool@^0.0.1-1",
-    "name": "aor-graphql-client-graphcool",
-    "escapedName": "aor-graphql-client-graphcool",
-    "rawSpec": "^0.0.1-1",
-    "saveSpec": null,
-    "fetchSpec": "^0.0.1-1"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/aor-graphql-client-graphcool/-/aor-graphql-client-graphcool-0.0.1-1.tgz",
-  "_shasum": "03a026de16c522aab6bbc01c5f96098878876467",
-  "_spec": "aor-graphql-client-graphcool@^0.0.1-1",
-  "_where": "/Users/zachshilton/Code/careers-admin-on-rest",
-  "authors": [
-    "Gildas Garcia"
-  ],
-  "bugs": {
-    "url": "https://github.com/marmelab/aor-graphql-client-graphcool/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "babel-plugin-transform-runtime": "~6.23.0",
-    "graphql": "~0.9.6",
-    "graphql-tag": "~2.0.0",
-    "graphqlify": "~1.1.0",
-    "lodash.merge": "~4.6.0",
-    "pluralize": "~4.0.0"
-  },
-  "deprecated": false,
-  "description": "A Graphcool GraphQL client for admin-on-rest",
-  "devDependencies": {
-    "aor-graphql-client": "^0.0.1-1",
-    "babel-cli": "~6.24.1",
-    "babel-core": "~6.24.1",
-    "babel-eslint": "~7.2.3",
-    "babel-jest": "~20.0.3",
-    "babel-preset-es2015": "~6.24.1",
-    "babel-preset-stage-0": "~6.24.1",
-    "eslint": "~3.19.0",
-    "eslint-config-prettier": "~1.7.0",
-    "eslint-plugin-import": "~2.2.0",
-    "eslint-plugin-jest": "~20.0.3",
-    "eslint-plugin-prettier": "~2.0.1",
-    "husky": "~0.13.3",
-    "jest": "~20.0.4",
-    "lint-staged": "~3.4.1",
-    "prettier": "~1.3.1"
-  },
-  "homepage": "https://github.com/marmelab/aor-graphql-client-graphcool#readme",
-  "license": "MIT",
-  "lint-staged": {
-    "gitDir": "../../",
-    "./packages/aor-graphql-client-graphcool/src/**/*.js": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
+  "name": "aor-graphql-client-graphcool-sagecomm-edits",
+  "version": "1.0.0",
+  "description": "Small edits on an existing npm module that wasn't working quite right.",
   "main": "./lib/index.js",
-  "name": "aor-graphql-client-graphcool",
-  "peerDependencies": {
-    "aor-graphql-client": "^0.0.1-1"
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marmelab/aor-graphql-client-graphcool.git"
+    "url": "git+https://github.com/sagecomm/aor-graphql-client-graphcool-sagecomm-edits.git"
   },
-  "scripts": {
-    "build": "make build",
-    "clean": "make clean",
-    "format": "make format",
-    "precommit": "lint-staged",
-    "prepublish": "make build",
-    "test": "make test",
-    "watch": "make watch",
-    "watch-test": "make watch-test"
+  "author": "Gildas Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagecomm/aor-graphql-client-graphcool-sagecomm-edits/issues"
   },
-  "version": "0.0.1-1"
+  "homepage": "https://github.com/sagecomm/aor-graphql-client-graphcool-sagecomm-edits#readme"
 }
