@@ -1,6 +1,6 @@
 {
   "name": "aor-graphql-client-graphcool-sagecomm-edits",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":
     "Small edits on an existing npm module that wasn't working quite right.",
   "main": "./lib/index.js",
